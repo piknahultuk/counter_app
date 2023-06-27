@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  max-width: 1000px;
+  font-family: "Outfit", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffe8d6;
+}
+
+header {
+  margin-top: 50px;
+  font-size: 70px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  margin: 0 auto 0 auto;
+}
+input {
+  font-size: 3rem;
+  margin: 20px;
+  border: 2px solid #cb997e;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #ffe8d6;
+}
+
+span {
+  font-size: 10rem;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+}
